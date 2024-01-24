@@ -1,0 +1,151 @@
+:root {
+    --color-principal: #0B0033;
+    --color-secundario: #370031;
+    --color-terciario: #832232;
+    --color-cuaterno: #CE8964;
+    --color-quinto: #EAF27C;
+}
+
+
+body {
+    background-color: var(--color-principal);
+    font-family: 'Lato', sans-serif;
+}
+
+/* Cabecera */
+
+.navbar {
+    background-color: var(--color-secundario);
+   
+    border-bottom: 1px solid #dddddd;
+}
+
+
+.navbar-nav .nav-link {
+    color: var(--color-quinto);
+  
+    font-size: 16px;
+    
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--color-cuaterno);
+   
+}
+
+.navbar-toggler {
+    border: none;
+    
+}
+
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-toggler-icon {
+    background-color: var(--color-cuaterno);
+    border-radius: 2px;
+}
+
+.navbar-toggler-icon {
+    color: var(--color-quinto);
+}
+
+/* Principal */
+
+#contenido_principal {
+    background-color: var(--color-secundario);
+
+}
+
+#titulo_principal {
+    color: var(--color-cuaterno) !important;
+}
+
+#subtitulo_principal {
+    color: var(--color-quinto);
+    transition: opacity 0.1s ease-in-out;
+    margin-bottom: 20px;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.custom-image-container {
+    align-items: center;
+}
+
+.custom-image-container img {
+    display: flex;
+
+    height: 100%;
+    padding: 15px;
+    border-radius: 20px !important;
+
+}
+
+#miAlerta {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000; 
+}
+
+.secundarios {
+    color: var(--color-cuaterno) !important;
+}
+
+.descripcion {
+    color: var(--color-quinto)
+}
+
+.about-me{
+    margin-top: 0%;
+    padding-top: 0;
+}
+
+.img-about{
+    border-radius: 10px;
+}
+
+#btnVerMas {
+    background-color: var(--color-terciario);
+    color: var(--color-cuaterno);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#btnVerMenos {
+    background-color: var(--color-terciario);
+    color: var(--color-cuaterno);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.proyectos {
+    background-color: var(--color-secundario);
+}
+
+
+.card-body {
+    background-color: var(--color-terciario);
+    color: var(--color-quinto);
+}
+
+.btn-outline-secondary{
+    background-color: var(--color-cuaterno);
+    color: var(--color-principal);
+}
+
+
+
+.img-carousel {
+    height: auto; 
+    width: auto;
+    margin: auto; 
+}

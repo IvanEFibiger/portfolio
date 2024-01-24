@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Libre+Bodoni:wght@600&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Portfolio | Ivan Fibiger</title>
+</head>
+
+<body>
+    <!-- Cabecera -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a href="#inicio" class="nav-link" aria-current="page">Inicio</a></li>
+                    <li class="nav-item"><a href="#about-me" class="nav-link">¿Quien soy?</a></li>
+                    <li class="nav-item"><a href="#proyectos" class="nav-link">Mis Proyectos</a></li>
+                    <li class="nav-item"><a href="#tecnos" class="nav-link">Tecnologías</a></li>
+                    <li class="nav-item"><a href="#contactame" class="nav-link">Contactame</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Contenido -->
+    <main>
+
+        <section class="py-5 text-center container" id="Inicio">
+            <div class="container my-5">
+                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+                    id="contenido_principal">
+                    <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                        <h1 class="display-4 fw-bold lh-1 text-body-emphasis" id="titulo_principal">¡Hola Mundo! Soy
+                            Iván</h1>
+                        <h2 id="subtitulo_principal">Python Dev. Full Stack & Machine Learning </h2>
+                        <p class="lead"></p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" onclick="irALinkedIn()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z">
+                                    </path>
+                                </svg>
+                                
+                            </button>
+
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" onclick="irAGithub()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-github" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8">
+                                    </path>
+                                </svg>
+                            </button>
+
+                            
+                                <button class="btn btn-danger btn-lg px-4 me-md-2 fw-bold bi bi-file-earmark-arrow-down"
+                                    type="button" onclick="descargarCV()">Descarga mi CV
+                                </button>
+                                 
+
+                            <button class="btn btn-danger btn-lg px-4 me-md-2 fw-bold bi bi-envelope-at-fill"
+                                type="button" id="mail">ivanfibiger@gmail.com
+                            </button>
+                            <div id="miAlerta" class="alert alert-success" role="alert" style="display: none;">
+                                A simple primary alert—check it out!
+                              </div>
+                              
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg custom-image-container">
+                        <img class="rounded-lg-3" src="image\perfil.jpg" alt="perfil" width="420" id="imagen_principal">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="container my-5" id="about-me">
+            <div class="row align-items-center">
+                <!-- Lado izquierdo con la imagen -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="image\programar.jpeg" alt="programar" class="img-fluid img-about">
+                </div>
+        
+                <!-- Lado derecho con título y párrafo -->
+                <div class="col-lg-6 about-me">
+                    <div class="px-4 py-5 my-5 text-center">                        
+                        <h2 class="display-5 fw-bold text-body-emphasis secundarios">Sobre mi:</h2>
+                        <p class="lead mb-4 descripcion">
+                            Actualmente, estoy finalizando mi carrera, Tecnicatura Universitaria en
+                            Tecnologías de Programación en la Universidad Provincial del Sudoeste y realizando cursos para poder
+                            especializarme en un lenguaje que me apasiona como lo es Python.<br>
+                            
+                        </p>
+                        <p class="lead mb-4 descripcion" id="contenidoOculto" style="display: none;">
+                            Desde temprana edad, me sumergí en el fascinante mundo de la tecnología. Mi amor por armar computadoras, especialmente aquellas diseñadas para juegos, me llevó a explorar y aprender continuamente sobre hardware y software.<br>
+                            Además de mi interés en la tecnología, disfruto de los desafíos que presenta el desarrollo de software. Mi objetivo es convertirme en un Python Developer especializado, combinando conocimientos en desarrollo full-stack y machine learning.<br>
+                            Cuando no estoy frente a la pantalla, disfruto de los videojuegos, las series, y tocar el bajo. Me considero un apasionado de la música y siempre estoy abierto a nuevas experiencias.<br>
+                            ¡Gracias por visitar mi portfolio! Estoy emocionado por lo que el futuro tiene reservado en mi viaje como desarrollador. Si tienes alguna pregunta o proyecto interesante, ¡estaré encantado de saber más!
+                        </p>
+                        <button onclick="verMas()" id="btnVerMas">Ver más</button>
+                        <button onclick="verMenos()" id="btnVerMenos" style="display: none;">Ver menos</button>
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container my-5 proyectos rounded p-4 border border-white" id="proyectos">
+            <div class="album py-5 proyectos">
+                <div class="container proyectos">
+                    <div class="px-4 py-5 my-5 text-center">
+                        <h2 class="display-5 fw-bold text-body-emphasis secundarios">Mis Proyectos</h2>
+                        <div class="col-lg-6 mx-auto">
+                            <p class="lead mb-4 descripcion">Aun no dispongo de experiencia trabajando como
+                                desarrollador,
+                                pero en el
+                                último tiempo fui creando distintos proyectos, tanto a nivel universitario como personal
+                                para
+                                adquirir
+                                conocimientos y habilidades y asi crecer como programador. A continuación, dejo algunos
+                                de mis
+                                últimos
+                                trabajos.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <title>Sistema de Facturación</title>
+                                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Sistema de Facturación</text>
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button"
+                                                class="btn btn-sm btn-outline-secondary">Detalles</button>
+                                        </div>
+                                        <small class="text-body-secondary">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <title>Modelos de ML</title>
+                                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="35%" y="50%"
+                                        fill="#eceeef" dy=".3em">Proyectos de Machine Learning</text>
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button"
+                                                class="btn btn-sm btn-outline-secondary">Detalles</button>
+                                        </div>
+                                        <small class="text-body-secondary">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button"
+                                                class="btn btn-sm btn-outline-secondary">Detalles</button>
+                                        </div>
+                                        <small class="text-body-secondary">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="py-5 text-center container" id="tecnos">
+            <div class="container my-5">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <h2 class="display-5 fw-bold text-body-emphasis secundarios">Tecnologías</h2>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="image/html.png" class="d-block img-carousel" alt="html">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/css.png" class="d-block img-carousel" alt="css">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/js.png" class="d-block  img-carousel" alt="js">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/python.png" class="d-block img-carousel" alt="python">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/django.png" class="d-block  img-carousel" alt="django">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/mysql.png" class="d-block img-carousel" alt="mysql">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    <!-- Pie -->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Ivan Fibiger</span>
+            </div>
+
+            <a href="#navbarNav" class="text-body-secondary">Ir a Inicio</a>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3">
+                    <a class="text-body-secondary" href="https://www.linkedin.com/in/ivan-fibiger">
+                        <svg class="bi bi-linkedin" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                        </svg>
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-body-secondary" href="https://github.com/IvanEFibiger">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="JS\index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
