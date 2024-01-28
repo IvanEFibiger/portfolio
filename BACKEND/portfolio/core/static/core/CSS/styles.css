@@ -150,3 +150,19 @@ body {
     margin: auto; 
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
 }
+
+#titulo_proyecto {
+    position: absolute;
+    font-size: xx-large; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: #CE8964; 
+    text-align: center;
+    border-color: #0B0033;
+    text-shadow: 2px 2px 2px #0B0033;
+}
+
+#imagen_proyecto {
+    filter:blur(1px);
+}
